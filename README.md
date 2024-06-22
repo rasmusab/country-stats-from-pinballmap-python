@@ -1,4 +1,4 @@
-# Contry-level pinball statistics over time
+# Country-level Pinball Statistics Over Time
 
-This repo uses [the API of pinballmap.com](https://pinballmap.com/api/v1/docs/1.0/locations/index.html) to, once a week, pull down the latest country-level stats on how many public pinball machines each country has.
-This data is also persisted and version in this very repo.
+This repository uses [the API of pinballmap.com](https://pinballmap.com/api/v1/docs/1.0/locations/index.html) to pull down the latest country-level stats on how many public pinball machines each country has, once a week.
+This data is also persisted and versioned in this very repository.
