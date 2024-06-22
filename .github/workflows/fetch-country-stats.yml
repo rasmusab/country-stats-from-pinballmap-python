@@ -6,6 +6,9 @@ on:
     # Runs at 00:42 every Monday
     - cron: '42 0 * * 1'
 
+permissions:
+  contents: write # So this job can commit changes
+
 jobs:
   fetch-country-stats-and-commit:
     runs-on: ubuntu-latest
