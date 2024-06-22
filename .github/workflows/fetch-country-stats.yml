@@ -21,7 +21,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Python script
-        run: python get_countries_json.py
+        run: python get-countries-json.py
 
       - name: Commit and Push changes
         run: |
