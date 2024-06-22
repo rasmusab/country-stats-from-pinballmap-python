@@ -1,0 +1,32 @@
+name: Fetch pinball country stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs at 00:42 every Monday
+    - cron: '42 0 * * 1'
+
+jobs:
+  fetch-country-stats-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+
+      - name: Install python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Python script
+        run: python get_countries_json.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'Rasmus Bååth'
+          git config --global user.email 'rasmus.baath@gmail.com'
+          git add .
+          git commit -m "Update data files" || echo "No changes to commit"
+          git push
