@@ -61,3 +61,53 @@ countries_history = (
 
 # %%
 countries_history.to_csv('countries-history.csv', index=False)
+
+# -------------------------------------------------------------------
+
+# %%
+# That concludes the neccecary steps to fetch and store the pinballmap's data
+# buuuuut, let's also plot the timeseries for the top 10 current contries,
+# just for the fun of it :) 
+
+latest_date = countries_history['date'].max()
+
+top_10_countries = (
+    countries_history
+    .query("date == @latest_date")
+    .sort_values('location_count', ascending=False)
+    .head(10)
+    ["country"]
+)
+
+top_10_countries_history = (
+    countries_history
+    .query("country in @top_10_countries")
+    .assign(country = lambda x: pd.Categorical(x['country'], categories=top_10_countries))
+)
+
+# %%
+from plotnine import (
+    ggplot,
+    aes,
+    geom_line,
+    geom_point,
+    labs,
+    scale_x_datetime,
+    scale_y_log10
+)
+
+top_10_countries_plot = (
+    ggplot(top_10_countries_history, aes(x="date", y="location_count", color="country")) +
+    geom_line() + 
+    geom_point() +
+    scale_x_datetime(date_breaks="1 month", date_labels="%Y %b") +
+    scale_y_log10(labels=lambda x: x) +
+    labs(
+        title="Top 10 countries with most public pinball locations",
+        subtitle=f"as of {latest_date.strftime('%Y-%m-%d')}",
+        x="",
+        y="Number of locations"
+    )
+)
+
+top_10_countries_plot.save("top-10-countries.svg", width=7, height=4, verbose=False)
