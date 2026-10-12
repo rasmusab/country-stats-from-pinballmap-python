@@ -2,32 +2,32 @@
     {
         "country": "US",
         "id": null,
-        "location_count": 9054
+        "location_count": 9073
     },
     {
         "country": "AU",
         "id": null,
-        "location_count": 606
+        "location_count": 607
     },
     {
         "country": "CA",
         "id": null,
-        "location_count": 558
+        "location_count": 560
     },
     {
         "country": "FR",
         "id": null,
-        "location_count": 552
+        "location_count": 556
     },
     {
         "country": "DE",
         "id": null,
-        "location_count": 244
+        "location_count": 246
     },
     {
         "country": "GB",
         "id": null,
-        "location_count": 238
+        "location_count": 240
     },
     {
         "country": "IT",
@@ -37,12 +37,12 @@
     {
         "country": "NL",
         "id": null,
-        "location_count": 131
+        "location_count": 132
     },
     {
         "country": "ES",
         "id": null,
-        "location_count": 129
+        "location_count": 130
     },
     {
         "country": "SE",
@@ -57,12 +57,12 @@
     {
         "country": "AT",
         "id": null,
-        "location_count": 104
+        "location_count": 103
     },
     {
         "country": "BE",
         "id": null,
-        "location_count": 100
+        "location_count": 101
     },
     {
         "country": "NZ",
@@ -77,7 +77,7 @@
     {
         "country": "PL",
         "id": null,
-        "location_count": 62
+        "location_count": 64
     },
     {
         "country": "JP",
@@ -92,7 +92,7 @@
     {
         "country": "AR",
         "id": null,
-        "location_count": 33
+        "location_count": 36
     },
     {
         "country": "HU",
@@ -120,12 +120,12 @@
         "location_count": 20
     },
     {
-        "country": "CZ",
+        "country": "PR",
         "id": null,
         "location_count": 18
     },
     {
-        "country": "PR",
+        "country": "CZ",
         "id": null,
         "location_count": 18
     },
@@ -140,14 +140,14 @@
         "location_count": 15
     },
     {
-        "country": "NO",
+        "country": "HR",
         "id": null,
         "location_count": 13
     },
     {
-        "country": "HR",
+        "country": "NO",
         "id": null,
-        "location_count": 12
+        "location_count": 13
     },
     {
         "country": "TH",
