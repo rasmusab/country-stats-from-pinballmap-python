@@ -2,27 +2,27 @@
     {
         "country": "US",
         "id": null,
-        "location_count": 9098
+        "location_count": 9137
     },
     {
         "country": "AU",
         "id": null,
-        "location_count": 604
+        "location_count": 603
     },
     {
         "country": "CA",
         "id": null,
-        "location_count": 562
+        "location_count": 558
     },
     {
         "country": "FR",
         "id": null,
-        "location_count": 557
+        "location_count": 558
     },
     {
         "country": "DE",
         "id": null,
-        "location_count": 246
+        "location_count": 248
     },
     {
         "country": "GB",
@@ -37,7 +37,7 @@
     {
         "country": "NL",
         "id": null,
-        "location_count": 135
+        "location_count": 134
     },
     {
         "country": "ES",
@@ -47,7 +47,7 @@
     {
         "country": "SE",
         "id": null,
-        "location_count": 117
+        "location_count": 115
     },
     {
         "country": "FI",
@@ -100,12 +100,12 @@
         "location_count": 32
     },
     {
-        "country": "GR",
+        "country": "PT",
         "id": null,
         "location_count": 26
     },
     {
-        "country": "PT",
+        "country": "GR",
         "id": null,
         "location_count": 26
     },
@@ -140,12 +140,12 @@
         "location_count": 15
     },
     {
-        "country": "HR",
+        "country": "NO",
         "id": null,
         "location_count": 13
     },
     {
-        "country": "NO",
+        "country": "HR",
         "id": null,
         "location_count": 13
     },
@@ -165,12 +165,12 @@
         "location_count": 10
     },
     {
-        "country": "TW",
+        "country": "CY",
         "id": null,
         "location_count": 8
     },
     {
-        "country": "CY",
+        "country": "TW",
         "id": null,
         "location_count": 8
     },
@@ -180,12 +180,7 @@
         "location_count": 7
     },
     {
-        "country": "CL",
-        "id": null,
-        "location_count": 6
-    },
-    {
-        "country": "LU",
+        "country": "HK",
         "id": null,
         "location_count": 6
     },
@@ -200,7 +195,12 @@
         "location_count": 6
     },
     {
-        "country": "HK",
+        "country": "LU",
+        "id": null,
+        "location_count": 6
+    },
+    {
+        "country": "CL",
         "id": null,
         "location_count": 6
     },
@@ -210,12 +210,12 @@
         "location_count": 5
     },
     {
-        "country": "ID",
+        "country": "AE",
         "id": null,
         "location_count": 5
     },
     {
-        "country": "AE",
+        "country": "ID",
         "id": null,
         "location_count": 5
     },
@@ -225,7 +225,7 @@
         "location_count": 4
     },
     {
-        "country": "BA",
+        "country": "EE",
         "id": null,
         "location_count": 3
     },
@@ -235,7 +235,7 @@
         "location_count": 3
     },
     {
-        "country": "EE",
+        "country": "BA",
         "id": null,
         "location_count": 3
     },
@@ -250,27 +250,12 @@
         "location_count": 3
     },
     {
-        "country": "MA",
-        "id": null,
-        "location_count": 2
-    },
-    {
-        "country": "VI",
+        "country": "DO",
         "id": null,
         "location_count": 2
     },
     {
         "country": "SG",
-        "id": null,
-        "location_count": 2
-    },
-    {
-        "country": "MV",
-        "id": null,
-        "location_count": 2
-    },
-    {
-        "country": "DO",
         "id": null,
         "location_count": 2
     },
@@ -285,12 +270,27 @@
         "location_count": 2
     },
     {
+        "country": "LI",
+        "id": null,
+        "location_count": 2
+    },
+    {
         "country": "LT",
         "id": null,
         "location_count": 2
     },
     {
-        "country": "LI",
+        "country": "MA",
+        "id": null,
+        "location_count": 2
+    },
+    {
+        "country": "VI",
+        "id": null,
+        "location_count": 2
+    },
+    {
+        "country": "MV",
         "id": null,
         "location_count": 2
     },
@@ -370,6 +370,11 @@
         "location_count": 1
     },
     {
+        "country": "MF",
+        "id": null,
+        "location_count": 1
+    },
+    {
         "country": "AD",
         "id": null,
         "location_count": 1
@@ -391,6 +396,11 @@
     },
     {
         "country": "RU",
+        "id": null,
+        "location_count": 1
+    },
+    {
+        "country": "SJ",
         "id": null,
         "location_count": 1
     },
