@@ -2,22 +2,22 @@
     {
         "country": "US",
         "id": null,
-        "location_count": 9137
+        "location_count": 9155
     },
     {
         "country": "AU",
         "id": null,
-        "location_count": 603
-    },
-    {
-        "country": "CA",
-        "id": null,
-        "location_count": 558
+        "location_count": 605
     },
     {
         "country": "FR",
         "id": null,
-        "location_count": 558
+        "location_count": 561
+    },
+    {
+        "country": "CA",
+        "id": null,
+        "location_count": 557
     },
     {
         "country": "DE",
@@ -35,14 +35,14 @@
         "location_count": 152
     },
     {
+        "country": "ES",
+        "id": null,
+        "location_count": 138
+    },
+    {
         "country": "NL",
         "id": null,
         "location_count": 134
-    },
-    {
-        "country": "ES",
-        "id": null,
-        "location_count": 132
     },
     {
         "country": "SE",
@@ -57,12 +57,12 @@
     {
         "country": "AT",
         "id": null,
-        "location_count": 103
+        "location_count": 104
     },
     {
         "country": "BE",
         "id": null,
-        "location_count": 101
+        "location_count": 102
     },
     {
         "country": "NZ",
@@ -97,15 +97,15 @@
     {
         "country": "HU",
         "id": null,
-        "location_count": 32
-    },
-    {
-        "country": "PT",
-        "id": null,
-        "location_count": 26
+        "location_count": 31
     },
     {
         "country": "GR",
+        "id": null,
+        "location_count": 29
+    },
+    {
+        "country": "PT",
         "id": null,
         "location_count": 26
     },
@@ -120,12 +120,12 @@
         "location_count": 20
     },
     {
-        "country": "PR",
+        "country": "CZ",
         "id": null,
         "location_count": 18
     },
     {
-        "country": "CZ",
+        "country": "PR",
         "id": null,
         "location_count": 18
     },
@@ -140,12 +140,12 @@
         "location_count": 15
     },
     {
-        "country": "NO",
+        "country": "HR",
         "id": null,
-        "location_count": 13
+        "location_count": 14
     },
     {
-        "country": "HR",
+        "country": "NO",
         "id": null,
         "location_count": 13
     },
@@ -155,14 +155,19 @@
         "location_count": 11
     },
     {
+        "country": "ZA",
+        "id": null,
+        "location_count": 10
+    },
+    {
         "country": "IE",
         "id": null,
         "location_count": 10
     },
     {
-        "country": "ZA",
+        "country": "SI",
         "id": null,
-        "location_count": 10
+        "location_count": 9
     },
     {
         "country": "CY",
@@ -175,17 +180,12 @@
         "location_count": 8
     },
     {
-        "country": "SI",
-        "id": null,
-        "location_count": 7
-    },
-    {
-        "country": "HK",
+        "country": "CL",
         "id": null,
         "location_count": 6
     },
     {
-        "country": "RS",
+        "country": "HK",
         "id": null,
         "location_count": 6
     },
@@ -195,12 +195,12 @@
         "location_count": 6
     },
     {
-        "country": "LU",
+        "country": "RS",
         "id": null,
         "location_count": 6
     },
     {
-        "country": "CL",
+        "country": "LU",
         "id": null,
         "location_count": 6
     },
@@ -210,14 +210,19 @@
         "location_count": 5
     },
     {
+        "country": "ID",
+        "id": null,
+        "location_count": 5
+    },
+    {
         "country": "AE",
         "id": null,
         "location_count": 5
     },
     {
-        "country": "ID",
+        "country": "EE",
         "id": null,
-        "location_count": 5
+        "location_count": 4
     },
     {
         "country": "RO",
@@ -225,7 +230,7 @@
         "location_count": 4
     },
     {
-        "country": "EE",
+        "country": "MY",
         "id": null,
         "location_count": 3
     },
@@ -235,17 +240,12 @@
         "location_count": 3
     },
     {
-        "country": "BA",
-        "id": null,
-        "location_count": 3
-    },
-    {
         "country": "MT",
         "id": null,
         "location_count": 3
     },
     {
-        "country": "MY",
+        "country": "BA",
         "id": null,
         "location_count": 3
     },
