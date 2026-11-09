@@ -2,17 +2,17 @@
     {
         "country": "US",
         "id": null,
-        "location_count": 9155
+        "location_count": 9144
     },
     {
         "country": "AU",
         "id": null,
-        "location_count": 605
+        "location_count": 604
     },
     {
         "country": "FR",
         "id": null,
-        "location_count": 561
+        "location_count": 566
     },
     {
         "country": "CA",
@@ -27,7 +27,7 @@
     {
         "country": "GB",
         "id": null,
-        "location_count": 241
+        "location_count": 242
     },
     {
         "country": "IT",
@@ -37,7 +37,7 @@
     {
         "country": "ES",
         "id": null,
-        "location_count": 138
+        "location_count": 139
     },
     {
         "country": "NL",
@@ -47,7 +47,7 @@
     {
         "country": "SE",
         "id": null,
-        "location_count": 115
+        "location_count": 116
     },
     {
         "country": "FI",
@@ -67,7 +67,7 @@
     {
         "country": "NZ",
         "id": null,
-        "location_count": 80
+        "location_count": 81
     },
     {
         "country": "CH",
@@ -82,7 +82,7 @@
     {
         "country": "JP",
         "id": null,
-        "location_count": 58
+        "location_count": 57
     },
     {
         "country": "DK",
@@ -107,7 +107,7 @@
     {
         "country": "PT",
         "id": null,
-        "location_count": 26
+        "location_count": 28
     },
     {
         "country": "IL",
